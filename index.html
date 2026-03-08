@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI automation for local businesses. Never miss a call, automate reviews, and nurture leads 24/7. Built for dental offices, HVAC companies, real estate agencies, and restaurants.">
+  <meta name="keywords" content="AI automation, local business AI, AI receptionist, automated reviews, lead nurture, small business automation">
+  <meta name="author" content="NexusAI Solutions">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="NexusAI -- AI Automation for Local Businesses">
+  <meta property="og:description" content="Stop losing customers. Automate appointments, follow-ups, and reviews with AI built for local businesses.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+
+  <title>NexusAI -- AI Automation for Local Businesses | Never Miss Another Customer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org LocalBusiness Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "NexusAI Solutions",
+    "description": "AI automation consulting for local businesses. We help dental offices, HVAC companies, real estate agencies, and restaurants automate their customer communications.",
+    "url": "#",
+    "telephone": "+1-555-0199",
+    "email": "hello@nexusai.example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Your City",
+      "addressRegion": "Your State",
+      "postalCode": "00000",
+      "addressCountry": "US"
+    },
+    "priceRange": "$$",
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "sameAs": [],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "AI Automation Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "AI Receptionist",
+          "description": "24/7 AI-powered phone answering and appointment booking",
+          "price": "497.00",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "497.00",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Review Autopilot",
+          "description": "Automated review request system after every customer visit",
+          "price": "297.00",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "297.00",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Lead Nurture System",
+          "description": "Automated multi-channel follow-up sequences for leads",
+          "price": "397.00",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "397.00",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "47"
+    }
+  }
+  </script>
+
+  <!-- FAQPage Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Will this replace my staff?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not at all. Our AI tools are designed to support your existing team, not replace them. Think of it as giving your staff a tireless assistant that handles the repetitive tasks -- answering after-hours calls, sending review requests, following up with leads -- so your team can focus on what they do best: delivering great service in person."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to set up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most of our systems are fully operational within 48-72 hours. We handle all the technical setup, integrations, and testing. You will have a dedicated onboarding call where we customize everything to match your business -- your services, your hours, your tone of voice. No heavy lifting on your end."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I'm not technical?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "That is exactly who we built this for. If you can send a text message, you can use our systems. There is no software to learn, no dashboards to monitor. Everything runs in the background. You get a simple weekly report showing calls answered, reviews collected, and leads followed up. And our team is always a phone call away if you need anything."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <div class="logo-icon">N</div>
+        NexusAI
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#problems">Why AI</a></li>
+        <li><a href="#solutions">Services</a></li>
+        <li><a href="#testimonials">Results</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#book" class="btn btn-primary btn-sm">Book Free Audit</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse"></span>
+          AI-Powered Growth for Local Businesses
+        </div>
+        <h1>Stop Losing Customers to Businesses That <span class="highlight">Use AI</span></h1>
+        <p class="hero-description">
+          Automate your appointments, follow-ups, and review collection. 
+          Your competitors are already using AI to capture the customers you are missing.
+        </p>
+        <div class="hero-buttons">
+          <a href="#book" class="btn btn-primary">
+            Book Your Free AI Audit &rarr;
+          </a>
+          <a href="#solutions" class="btn btn-outline">
+            See How It Works
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="number">93%</div>
+            <div class="label">of missed calls never call back</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">$1.2M+</div>
+            <div class="label">revenue recovered for clients</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">48hr</div>
+            <div class="label">setup, fully operational</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual: AI Chat Demo -->
+      <div class="hero-visual fade-up">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span class="hero-card-dot"></span>
+            <span>AI Receptionist -- Live Demo</span>
+          </div>
+          <div class="chat-line">
+            <div class="chat-avatar human">C</div>
+            <div class="chat-bubble">
+              Hi, I need to book a cleaning for next Tuesday.
+            </div>
+          </div>
+          <div class="chat-line">
+            <div class="chat-avatar ai">AI</div>
+            <div class="chat-bubble ai-bubble">
+              I would be happy to help! I have openings at 9:00 AM, 11:30 AM, and 2:00 PM on Tuesday. Which works best for you?
+            </div>
+          </div>
+          <div class="chat-line">
+            <div class="chat-avatar human">C</div>
+            <div class="chat-bubble">
+              11:30 works perfect.
+            </div>
+          </div>
+          <div class="chat-line">
+            <div class="chat-avatar ai">AI</div>
+            <div class="chat-bubble ai-bubble">
+              You are all set! Appointment confirmed for Tuesday at 11:30 AM. You will receive a confirmation text shortly. Anything else I can help with?
+            </div>
+          </div>
+          <div class="chat-line">
+            <div class="chat-avatar ai">AI</div>
+            <div class="chat-bubble ai-bubble">
+              <div class="typing-indicator">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROBLEMS SECTION ========== -->
+  <section class="problems" id="problems">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">The Problem</span>
+        <h2>Your Business Is Bleeding Revenue Right Now</h2>
+        <p>Every day without AI automation, you are losing customers to competitors who have already made the switch.</p>
+      </div>
+
+      <div class="problems-grid">
+        <!-- Problem 1 -->
+        <div class="problem-card fade-up">
+          <div class="problem-icon">&#128222;</div>
+          <h3>Missed Calls = Missed Revenue</h3>
+          <p>
+            When a potential customer calls and nobody answers, they do not leave a voicemail -- they call the next business on Google. 
+            Every missed call is a customer who chose your competitor instead.
+          </p>
+          <span class="problem-stat">62% of calls to small businesses go unanswered</span>
+        </div>
+
+        <!-- Problem 2 -->
+        <div class="problem-card fade-up">
+          <div class="problem-icon">&#128203;</div>
+          <h3>Manual Follow-Ups Falling Through the Cracks</h3>
+          <p>
+            Your team means well, but sticky notes get lost and spreadsheets go stale. 
+            Leads go cold because nobody followed up within the critical first 5 minutes.
+          </p>
+          <span class="problem-stat">78% of leads go to the first business that responds</span>
+        </div>
+
+        <!-- Problem 3 -->
+        <div class="problem-card fade-up">
+          <div class="problem-icon">&#9889;</div>
+          <h3>Your Competitors Are Already Using AI</h3>
+          <p>
+            While you are still using pen and paper, the practice down the street has an AI answering calls at midnight, 
+            collecting 5-star reviews on autopilot, and converting leads while their team sleeps.
+          </p>
+          <span class="problem-stat">3x growth rate for AI-adopting businesses</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOLUTIONS / SERVICES SECTION ========== -->
+  <section class="solutions" id="solutions">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Our Solutions</span>
+        <h2>Three Systems That Run Your Business on Autopilot</h2>
+        <p>Plug-and-play AI tools built specifically for local service businesses. No technical skills required.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: AI Receptionist -->
+        <div class="service-card featured fade-up">
+          <span class="service-badge">Most Popular</span>
+          <div class="service-icon">&#129302;</div>
+          <h3>AI Receptionist</h3>
+          <div class="service-price">$497 <span>/month</span></div>
+          <p>Never miss another call. Your AI receptionist answers every call 24/7, books appointments, and answers FAQs in your brand voice.</p>
+          <ul class="service-features">
+            <li>24/7 intelligent call answering</li>
+            <li>Instant appointment booking</li>
+            <li>Answers common questions about your services</li>
+            <li>Transfers urgent calls to your cell</li>
+            <li>Bilingual support (English + Spanish)</li>
+            <li>Real-time notifications for every interaction</li>
+          </ul>
+          <a href="#book" class="btn btn-primary btn-sm">Get Started &rarr;</a>
+        </div>
+
+        <!-- Service 2: Review Autopilot -->
+        <div class="service-card fade-up">
+          <div class="service-icon">&#11088;</div>
+          <h3>Review Autopilot</h3>
+          <div class="service-price">$297 <span>/month</span></div>
+          <p>Automatically request reviews after every visit. Watch your Google rating climb while you focus on serving customers.</p>
+          <ul class="service-features">
+            <li>Automated SMS + email review requests</li>
+            <li>Smart timing after each appointment</li>
+            <li>Negative feedback intercepted privately</li>
+            <li>Google, Yelp, and Facebook integration</li>
+            <li>Monthly reputation report</li>
+          </ul>
+          <a href="#book" class="btn btn-outline btn-sm">Learn More &rarr;</a>
+        </div>
+
+        <!-- Service 3: Lead Nurture System -->
+        <div class="service-card fade-up">
+          <div class="service-icon">&#127919;</div>
+          <h3>Lead Nurture System</h3>
+          <div class="service-price">$397 <span>/month</span></div>
+          <p>Turn cold leads into booked customers with automated follow-up sequences across SMS, email, and voicemail drops.</p>
+          <ul class="service-features">
+            <li>Automated multi-touch follow-up sequences</li>
+            <li>SMS, email, and ringless voicemail</li>
+            <li>Speed-to-lead under 60 seconds</li>
+            <li>Re-engagement campaigns for past customers</li>
+            <li>Lead scoring and hot-lead alerts</li>
+          </ul>
+          <a href="#book" class="btn btn-outline btn-sm">Learn More &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOCIAL PROOF / TESTIMONIALS ========== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Real Results</span>
+        <h2>Trusted by Local Business Owners Like You</h2>
+        <p>See how AI automation is transforming businesses across industries.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1: Dentist -->
+        <div class="testimonial-card fade-up">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            "We were missing 40+ calls a month -- mostly new patients calling after hours. 
+            Within the first week, the AI receptionist booked 12 appointments we would have lost completely. 
+            It paid for itself on day three."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar t1">DR</div>
+            <div>
+              <div class="testimonial-name">Dr. Rachel Morrison</div>
+              <div class="testimonial-role">Owner, Bright Smile Dental -- Austin, TX</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2: HVAC -->
+        <div class="testimonial-card fade-up">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            "Our Google reviews went from 3.8 to 4.7 stars in two months. The review system just runs 
+            in the background -- I do not even think about it. New customers literally say they chose us 
+            because of our reviews."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar t2">MJ</div>
+            <div>
+              <div class="testimonial-name">Mike Johnson</div>
+              <div class="testimonial-role">Owner, Johnson HVAC Services -- Denver, CO</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3: Real Estate -->
+        <div class="testimonial-card fade-up">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            "I used to spend 2 hours every morning following up with leads manually. Now the AI handles it 
+            instantly. My close rate jumped 34% because we respond to every inquiry within a minute -- even 
+            at 2 AM on a Saturday."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar t3">SK</div>
+            <div>
+              <div class="testimonial-name">Sarah Kim</div>
+              <div class="testimonial-role">Broker, Prestige Realty Group -- Phoenix, AZ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Banner -->
+      <div class="results-banner fade-up">
+        <div class="result-item">
+          <div class="result-number">47+</div>
+          <div class="result-label">Businesses Automated</div>
+        </div>
+        <div class="result-item">
+          <div class="result-number">12,400+</div>
+          <div class="result-label">Calls Answered by AI</div>
+        </div>
+        <div class="result-item">
+          <div class="result-number">2,800+</div>
+          <div class="result-label">5-Star Reviews Generated</div>
+        </div>
+        <div class="result-item">
+          <div class="result-number">98.2%</div>
+          <div class="result-label">Client Retention Rate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA SECTION ========== -->
+  <section class="cta-section" id="book">
+    <div class="container">
+      <div class="cta-box fade-up">
+        <h2>Book Your Free AI Audit</h2>
+        <p>
+          In 30 minutes, we will analyze your current setup, identify where you are losing 
+          customers, and show you exactly how AI can fix it. No pitch, no pressure -- just a clear plan.
+        </p>
+        <a href="#" class="btn btn-primary">
+          Schedule Your Free Audit &rarr;
+        </a>
+        <div class="cta-guarantee">
+          <strong>100% Free</strong> -- No credit card required. No obligation. Just clarity.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ SECTION ========== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">FAQ</span>
+        <h2>Questions You Might Have</h2>
+        <p>Straight answers -- no jargon, no runaround.</p>
+      </div>
+
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-item active fade-up">
+          <button class="faq-question" aria-expanded="true">
+            Will this replace my staff?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Not at all. Our AI tools are designed to <strong>support</strong> your existing team, not replace them. 
+              Think of it as giving your staff a tireless assistant that handles the repetitive tasks -- answering 
+              after-hours calls, sending review requests, following up with leads -- so your team can focus on what 
+              they do best: delivering great service in person. Most of our clients tell us their staff actually 
+              loves it because it takes busywork off their plate.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item fade-up">
+          <button class="faq-question" aria-expanded="false">
+            How long does it take to set up?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Most of our systems are fully operational within <strong>48-72 hours</strong>. We handle all the technical 
+              setup, integrations, and testing. You will have a dedicated onboarding call where we customize everything 
+              to match your business -- your services, your hours, your tone of voice. There is no heavy lifting on 
+              your end. We have onboarded dental offices in a single afternoon.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item fade-up">
+          <button class="faq-question" aria-expanded="false">
+            What if I am not technical?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              That is exactly who we built this for. If you can send a text message, you can use our systems. 
+              There is no software to learn, no dashboards to monitor, no code to write. Everything runs 
+              in the background automatically. You get a simple weekly report showing calls answered, 
+              reviews collected, and leads followed up. And our team is always a phone call away if you 
+              need anything adjusted.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item fade-up">
+          <button class="faq-question" aria-expanded="false">
+            What industries do you work with?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              We specialize in local service businesses: <strong>dental offices, HVAC companies, real estate agencies, 
+              restaurants, med spas, law firms, auto repair shops</strong>, and similar businesses. If your revenue depends 
+              on answering phones, booking appointments, or generating reviews -- we can help. During your free audit, 
+              we will confirm whether our systems are a good fit for your specific business.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item fade-up">
+          <button class="faq-question" aria-expanded="false">
+            Is there a contract or commitment?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              No long-term contracts. All of our plans are <strong>month-to-month</strong>. We believe in earning your 
+              business every single month. That said, our client retention rate is 98.2% -- most businesses stay because 
+              the ROI is obvious from the first month. You can cancel anytime with 30 days notice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <div class="logo-icon">N</div>
+            NexusAI
+          </a>
+          <p>
+            AI automation built for local businesses. We help you capture every customer, 
+            collect more reviews, and grow on autopilot.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#solutions">AI Receptionist</a></li>
+            <li><a href="#solutions">Review Autopilot</a></li>
+            <li><a href="#solutions">Lead Nurture System</a></li>
+            <li><a href="#book">Free AI Audit</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Industries</h4>
+          <ul>
+            <li><a href="#">Dental Offices</a></li>
+            <li><a href="#">HVAC Companies</a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Restaurants</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@nexusai.example.com">hello@nexusai.example.com</a></li>
+            <li><a href="tel:+15550199">(555) 019-9000</a></li>
+            <li><a href="#book">Book a Call</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 NexusAI Solutions. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== JAVASCRIPT ========== -->
+  <script>
+    // --- Navbar scroll effect ---
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // --- Mobile menu toggle ---
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Close mobile menu when a link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+      });
+    });
+
+    // --- FAQ accordion ---
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const isActive = item.classList.contains('active');
+
+        // Close all
+        document.querySelectorAll('.faq-item').forEach(i => {
+          i.classList.remove('active');
+          i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+
+        // Open clicked (if it was not already open)
+        if (!isActive) {
+          item.classList.add('active');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // --- Scroll-triggered fade-up animations ---
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // --- Smooth scroll for anchor links ---
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
